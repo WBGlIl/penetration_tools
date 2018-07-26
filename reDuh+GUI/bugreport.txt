@@ -1,0 +1,1936 @@
+date/time         : 2012-06-16, 11:12:50, 240ms
+computer name     : FANS-COMPUTER
+user name         : Administrator <admin>
+registered owner  : 微软用户 / 微软中国
+operating system  : Windows NT New x64 Service Pack 1 build 7601
+system language   : Chinese (Simplified)
+system up time    : 5 hours 10 minutes
+program up time   : 7 minutes 20 seconds
+processors        : 2x AMD E-300 APU with Radeon(tm) HD Graphics
+physical memory   : 320/1644 MB (free/total)
+free disk space   : (C:) 4.66 GB (E:) 63.66 GB
+display mode      : 1366x768, 32 bit
+process id        : $1958
+allocated memory  : 55.18 MB
+executable        : 渗透终极利器reDuh GUI.exe
+exec. date/time   : 2009-07-28 21:52
+compiled with     : BCB 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $375b51b0, $83b02907, $e833f9e0
+count             : 2
+exception number  : 2
+exception class   : EAccessViolation
+exception message : Access violation at address 004071DF in module '渗透终极利器reDuh GUI.exe'. Write of address 64656782.
+
+main thread ($1590):
+004071df +007 渗透终极利器reDuh GUI.exe nsServer.cpp     127 +2 nsServer.Stop
+00413a76 +022 渗透终极利器reDuh GUI.exe tunnelThread.cpp 202 +5 TTunnelThread.Stop
+00409302 +142 渗透终极利器reDuh GUI.exe reDuchMain.cpp   261 +8 TForm1.clstnlBtnClick
+0047b65b +06f 渗透终极利器reDuh GUI.exe Controls                TControl.Click
+0044cb52 +01e 渗透终极利器reDuh GUI.exe Stdctrls                TCustomButton.Click
+0044d5c0 +010 渗透终极利器reDuh GUI.exe Stdctrls                TCustomButton.CNCommand
+0047b0f2 +2d2 渗透终极利器reDuh GUI.exe Controls                TControl.WndProc
+0047f5f7 +513 渗透终极利器reDuh GUI.exe Controls                TWinControl.WndProc
+0044c818 +06c 渗透终极利器reDuh GUI.exe Stdctrls                TButtonControl.WndProc
+0047ad18 +024 渗透终极利器reDuh GUI.exe Controls                TControl.Perform
+0047f747 +023 渗透终极利器reDuh GUI.exe Controls                _16950
+00480143 +00b 渗透终极利器reDuh GUI.exe Controls                TWinControl.WMCommand
+0047b0f2 +2d2 渗透终极利器reDuh GUI.exe Controls                TControl.WndProc
+0047f5f7 +513 渗透终极利器reDuh GUI.exe Controls                TWinControl.WndProc
+00424658 +014 渗透终极利器reDuh GUI.exe Classes                 _17453
+0047ed10 +02c 渗透终极利器reDuh GUI.exe Controls                TWinControl.MainWndProc
+00424658 +014 渗透终极利器reDuh GUI.exe Classes                 _17453
+74c696c0 +047 USER32.dll                                        SendMessageW
+74c70d48 +016 USER32.dll                                        CallWindowProcW
+0047f6f3 +0d7 渗透终极利器reDuh GUI.exe Controls                TWinControl.DefaultHandler
+0047ba78 +010 渗透终极利器reDuh GUI.exe Controls                TControl.WMLButtonUp
+0047b0f2 +2d2 渗透终极利器reDuh GUI.exe Controls                TControl.WndProc
+0047f5f7 +513 渗透终极利器reDuh GUI.exe Controls                TWinControl.WndProc
+0044c818 +06c 渗透终极利器reDuh GUI.exe Stdctrls                TButtonControl.WndProc
+0047ed10 +02c 渗透终极利器reDuh GUI.exe Controls                TWinControl.MainWndProc
+00424658 +014 渗透终极利器reDuh GUI.exe Classes                 _17453
+74c67885 +00a USER32.dll                                        DispatchMessageW
+0046e74d +11d 渗透终极利器reDuh GUI.exe Forms                   TApplication.ProcessMessage
+0046e77a +00a 渗透终极利器reDuh GUI.exe Forms                   TApplication.HandleMessage
+0046eaa5 +0c9 渗透终极利器reDuh GUI.exe Forms                   TApplication.Run
+0040734a +052 渗透终极利器reDuh GUI.exe reDuhGUI.cpp      21 +7 WinMain
+0049e866 +156 渗透终极利器reDuh GUI.exe                         __startup
+761a3398 +010 kernel32.dll                                      BaseThreadInitThunk
+
+thread $e98:
+761a3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $11e4: <priority:1>
+761a3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $16fc (ThttpDataQueueManager):
+75ac31b5 +05f KERNELBASE.dll                                             SleepEx
+75ac3a86 +00a KERNELBASE.dll                                             Sleep
+00439f4c +0b0 渗透终极利器reDuh GUI.exe System                           SysFreeMem
+0043b044 +004 渗透终极利器reDuh GUI.exe System                           @FreeMem
+0043d37c +01c 渗透终极利器reDuh GUI.exe System                           @LStrClr
+004a13cc +014 渗透终极利器reDuh GUI.exe System                           AnsiStringBase.Destroy
+00401ba9 +031 渗透终极利器reDuh GUI.exe dstring.h                412  +0 System.AnsiStringT
+00406c5b +857 渗透终极利器reDuh GUI.exe httpDataQueueManager.cpp  65 +34 ThttpDataQueueManager.Execute
+004c763b +02b 渗透终极利器reDuh GUI.exe Madexcept                        _17202
+00422f06 +042 渗透终极利器reDuh GUI.exe Classes                          _17295
+0043d2d4 +028 渗透终极利器reDuh GUI.exe System                           _16870
+004c751d +00d 渗透终极利器reDuh GUI.exe Madexcept                        _17200
+004c7587 +037 渗透终极利器reDuh GUI.exe Madexcept                        _17201
+761a3398 +010 kernel32.dll                                               BaseThreadInitThunk
+>> created by main thread ($1590) at:
+004063b2 +032 渗透终极利器reDuh GUI.exe httpDataQueueManager.cpp  26  +1 ThttpDataQueueManager.Create
+
+thread $1834 (TpopDataFromRemoteJSP):
+74892f7b +05b WS2_32.dll                                                WahReferenceContextByHandle
+74896a25 +09c WS2_32.dll                                                select
+1000369b +09b LIBCURL.DLL                                               curl_easy_perform
+00401afd +0c5 渗透终极利器reDuh GUI.exe nsHttp.cpp               86 +16 nsBaseHttp.GetHttp
+00402314 +1e4 渗透终极利器reDuh GUI.exe popDataFromRemoteJSP.cpp 63 +10 TpopDataFromRemoteJSP.Execute
+004c763b +02b 渗透终极利器reDuh GUI.exe Madexcept                       _17202
+00422f06 +042 渗透终极利器reDuh GUI.exe Classes                         _17295
+0043d2d4 +028 渗透终极利器reDuh GUI.exe System                          _16870
+004c751d +00d 渗透终极利器reDuh GUI.exe Madexcept                       _17200
+004c7587 +037 渗透终极利器reDuh GUI.exe Madexcept                       _17201
+761a3398 +010 kernel32.dll                                              BaseThreadInitThunk
+>> created by main thread ($1590) at:
+0040209e +032 渗透终极利器reDuh GUI.exe popDataFromRemoteJSP.cpp 32  +1 TpopDataFromRemoteJSP.Create
+
+thread $1290:
+761b431a +757 kernel32.dll                        CreateProcessInternalW
+761a1064 +027 kernel32.dll                        CreateProcessW
+761c77d2 +0db kernel32.dll                        UnhandledExceptionFilter
+0043cdf3 +01f 渗透终极利器reDuh GUI.exe System    _16840
+7735012e +00a ntdll.dll                           KiUserExceptionDispatcher
+00422f47 +083 渗透终极利器reDuh GUI.exe Classes   _17295
+0043d2d4 +028 渗透终极利器reDuh GUI.exe System    _16870
+004c751d +00d 渗透终极利器reDuh GUI.exe Madexcept _17200
+004c7587 +037 渗透终极利器reDuh GUI.exe Madexcept _17201
+761a3398 +010 kernel32.dll                        BaseThreadInitThunk
+
+thread $19c4:
+74896955 +7f WS2_32.dll                                     WSAAccept
+748968c8 +12 WS2_32.dll                                     accept
+00406ed1 +95 渗透终极利器reDuh GUI.exe nsServer.cpp     149 ThttpDataQueueManager.Destroy
+004c751d +0d 渗透终极利器reDuh GUI.exe Madexcept            _17200
+004c7587 +37 渗透终极利器reDuh GUI.exe Madexcept            _17201
+761a3398 +10 kernel32.dll                                   BaseThreadInitThunk
+>> created by thread $1290 at:
+00407195 +1d 渗透终极利器reDuh GUI.exe nsServer.cpp 114  +3 nsServer.Start
+
+thread $1aa8:
+761a3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $9b8:
+761a3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1b5c:
+75ac31b5 +05f KERNELBASE.dll                                     SleepEx
+75ac3a86 +00a KERNELBASE.dll                                     Sleep
+00439f4c +0b0 渗透终极利器reDuh GUI.exe System                   SysFreeMem
+00493593 +01f 渗透终极利器reDuh GUI.exe                          __internal_free
+0049346f +007 渗透终极利器reDuh GUI.exe                          free
+00413148 +f4c 渗透终极利器reDuh GUI.exe tunnelThread.cpp 153 +48 base64encode
+7736ec5f +063 ntdll.dll                                          bsearch
+004c751d +00d 渗透终极利器reDuh GUI.exe Madexcept                _17200
+004c7587 +037 渗透终极利器reDuh GUI.exe Madexcept                _17201
+761a3398 +010 kernel32.dll                                       BaseThreadInitThunk
+>> created by thread $19c4 at:
+00406eff +0c3 渗透终极利器reDuh GUI.exe nsServer.cpp         160 ThttpDataQueueManager.Destroy
+
+thread $1588:
+761a3398 +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00230000 SSLEAY32.dll        0.9.8.8          E:\t00ls\HUC08脚本工具V2012\其他工具\内网工具\渗透终极利器reDuh_GUI
+00400000 渗透终极利器reDuh GUI.exe                  E:\t00ls\HUC08脚本工具V2012\其他工具\内网工具\渗透终极利器reDuh_GUI
+00550000 LIBEAY32.dll        0.9.8.8          E:\t00ls\HUC08脚本工具V2012\其他工具\内网工具\渗透终极利器reDuh_GUI
+02510000 kwsui.dll           2012.6.4.130     C:\Program Files (x86)\kingsoft\kingsoft antivirus
+026a0000 safemon.dll         7.0.1.1070       C:\Program Files (x86)\360\360Safe\safemon
+10000000 LIBCURL.DLL         7.19.5.0         E:\t00ls\HUC08脚本工具V2012\其他工具\内网工具\渗透终极利器reDuh_GUI
+70ec0000 WindowsCodecs.dll   6.1.7601.17514   C:\Windows\system32
+716a0000 MSVCR90.dll         9.0.30729.4940   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.4940_none_50916076bcb9a742
+71860000 WSOCK32.DLL         6.1.7600.16385   C:\Windows\system32
+71e50000 MSVCP60.dll         7.0.7600.16385   C:\Windows\system32
+71ec0000 rasadhlp.dll        6.1.7600.16385   C:\Windows\system32
+71ed0000 fwpuclnt.dll        6.1.7601.17514   C:\Windows\System32
+71f10000 winrnr.dll          6.1.7600.16385   C:\Windows\System32
+71f20000 pnrpnsp.dll         6.1.7600.16385   C:\Windows\system32
+71f40000 napinsp.dll         6.1.7600.16385   C:\Windows\system32
+71f50000 NLAapi.dll          6.1.7601.17514   C:\Windows\system32
+71f60000 wshtcpip.dll        6.1.7600.16385   C:\Windows\System32
+720a0000 DNSAPI.dll          6.1.7601.17570   C:\Windows\system32
+720f0000 mswsock.dll         6.1.7601.17514   C:\Windows\system32
+72320000 COMCTL32.DLL        6.10.7601.17514  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+72810000 WINNSI.DLL          6.1.7600.16385   C:\Windows\system32
+72820000 IPHLPAPI.DLL        6.1.7601.17514   C:\Windows\system32
+728c0000 VERSION.DLL         6.1.7600.16385   C:\Windows\system32
+73cb0000 MSIMG32.DLL         6.1.7600.16385   C:\Windows\system32
+74050000 uxtheme.dll         6.1.7600.16385   C:\Windows\system32
+74580000 CRYPTBASE.dll       6.1.7600.16385   C:\Windows\syswow64
+74590000 SspiCli.dll         6.1.7601.17725   C:\Windows\syswow64
+745f0000 OLE32.DLL           6.1.7601.17514   C:\Windows\syswow64
+74750000 RPCRT4.dll          6.1.7601.17514   C:\Windows\syswow64
+74840000 MSASN1.dll          6.1.7601.17514   C:\Windows\syswow64
+74890000 WS2_32.dll          6.1.7601.17514   C:\Windows\syswow64
+74950000 ADVAPI32.DLL        6.1.7601.17514   C:\Windows\syswow64
+74a70000 USP10.dll           1.626.7601.17514 C:\Windows\syswow64
+74b10000 PSAPI.DLL           6.1.7600.16385   C:\Windows\syswow64
+74b20000 msvcrt.dll          7.0.7601.17744   C:\Windows\syswow64
+74c50000 USER32.dll          6.1.7601.17514   C:\Windows\syswow64
+74e40000 dwmapi.dll          6.1.7600.16385   C:\Windows\syswow64
+74e60000 SHELL32.dll         6.1.7601.17514   C:\Windows\syswow64
+75ab0000 KERNELBASE.dll      6.1.7601.17651   C:\Windows\syswow64
+75c40000 CRYPT32.dll         6.1.7601.17514   C:\Windows\syswow64
+75d70000 WINTRUST.dll        6.1.7601.17787   C:\Windows\syswow64
+75f40000 WININET.dll         9.0.8112.16446   C:\Windows\syswow64
+76060000 LPK.dll             6.1.7600.16385   C:\Windows\syswow64
+76070000 urlmon.dll          9.0.8112.16446   C:\Windows\syswow64
+76190000 kernel32.dll        6.1.7601.17651   C:\Windows\syswow64
+762a0000 NSI.dll             6.1.7600.16385   C:\Windows\syswow64
+762e0000 iertutil.dll        9.0.8112.16446   C:\Windows\syswow64
+764a0000 MSCTF.dll           6.1.7600.16385   C:\Windows\syswow64
+76570000 SHLWAPI.dll         6.1.7601.17514   C:\Windows\syswow64
+76660000 sechost.dll         6.1.7600.16385   C:\Windows\SysWOW64
+76680000 IMM32.DLL           6.1.7601.17514   C:\Windows\system32
+766e0000 COMDLG32.DLL        6.1.7601.17514   C:\Windows\syswow64
+76790000 GDI32.dll           6.1.7601.17514   C:\Windows\syswow64
+768b0000 OLEAUT32.DLL        6.1.7601.17676   C:\Windows\syswow64
+77310000 Normaliz.dll        6.1.7600.16385   C:\Windows\syswow64
+77340000 ntdll.dll           6.1.7601.17725   C:\Windows\SysWOW64
+
+processes:
+0000 Idle                         0
+0004 System                       0
+00f8 smss.exe                     0
+0170 csrss.exe                    0
+01d0 wininit.exe                  0
+01e8 csrss.exe                    1
+0214 services.exe                 0
+0230 lsass.exe                    0
+0238 lsm.exe                      0
+0250 winlogon.exe                 1
+02b8 svchost.exe                  0
+032c svchost.exe                  0
+0360 atiesrxx.exe                 0
+03c8 svchost.exe                  0
+03ec svchost.exe                  0
+0134 svchost.exe                  0
+014c stacsv64.exe                 0
+0478 atieclxx.exe                 1
+04c8 svchost.exe                  0
+04e0 ZhuDongFangYu.exe            0
+0528 svchost.exe                  0
+05a0 kxescore.exe                 0
+061c svchost.exe                  0
+07d0 AESTSr64.exe                 0
+04dc mysqld-nt.exe                0
+0750 nessus-service.exe           0
+07b4 nessusd.exe                  0
+0824 svchost.exe                  0
+091c taskhost.exe                 1 normal
+0994 explorer.exe                 1 normal
+0b48 sttray64.exe                 1 normal
+0b5c 360sd.exe                    1 normal
+0b84 360Tray.exe                  1 normal C:\Program Files (x86)\360\360Safe\safemon
+06cc 360rp.exe                    1 normal
+0adc httpd.exe                    0
+0af4 httpd.exe                    0
+0d20 vmware-authd.exe             0
+0de4 knbcenter.exe                0
+0e00 QQ.exe                       1 normal D:\QQ2012\Bin
+0e9c WVSScheduler.exe             0
+0fe0 rpcapd.exe                   0
+0940 TXPlatform.exe               1 normal D:\QQ2012\Bin
+0260 svchost.exe                  0
+0f70 QQExternal.exe               1 normal D:\QQ2012\Bin
+0ad0 360se.exe                    1 normal C:\Users\Administrator\AppData\Roaming\360se\bin
+0f9c 360se.exe                    1 normal C:\Users\Administrator\AppData\Roaming\360se\bin
+0484 urlproc.exe                  1 normal C:\Users\Administrator\AppData\Roaming\360se\bin\SafeCentral
+0ef8 SQLServer_inject_Creaked.exe 1 normal E:\t00ls\HUC08脚本工具V2012\huc08\河马SQLServer注入工具V1.0
+12b4 HUC08脚本注入工具V2012.4.1.exe     1 normal E:\t00ls\HUC08脚本工具V2012
+0284 CAIDAO.exe                   1 normal E:\t00ls\HUC08脚本工具V2012\脚本工具\CAIDAO
+0cbc sogouexplorer.exe            1 normal D:\Program Files\SogouExplorer
+0618 sogouexplorer.exe            1 normal D:\Program Files\SogouExplorer
+0da8 sogouexplorer.exe            1 normal D:\Program Files\SogouExplorer
+10f0 sogouexplorer.exe            1 normal D:\Program Files\SogouExplorer
+0490 notepad.exe                  1 normal
+0d80 notepad.exe                  1 normal
+133c WnUserPage.exe               1 normal
+1148 kxetray.exe                  1 normal C:\Program Files (x86)\kingsoft\kingsoft antivirus
+13e0 notepad.exe                  1 normal
+179c 御剑.exe                       1 normal
+17fc audiodg.exe                  0
+1958 渗透终极利器reDuh GUI.exe          1 normal E:\t00ls\HUC08脚本工具V2012\其他工具\内网工具\渗透终极利器reDuh_GUI
+1384 mstsc.exe                    1 normal
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
+  - Microsoft Composite Battery
++ Computer
+  - ACPI x64-based PC
++ Disk drives
+  - TOSHIBA MK3275GSX SATA Disk Device
++ Display adapters
+  - AMD Radeon HD 6300 series Graphics (driver 8.841.0.0)
+  - AMD Radeon HD 6400M Series (driver 8.841.0.0)
+  - BB Capture Driver (driver 3.40.0.0)
++ DVD/CD-ROM drives
+  - MATSHITA DVD+-RW UJ8B1 SATA CdRom Device
++ Human Interface Devices
+  - USB 输入设备
++ IDE ATA/ATAPI controllers
+  - AMD SATA Controller (driver 1.2.1.292)
++ Imaging devices
+  - Integrated Webcam
++ Keyboards
+  - PS/2 标准键盘
++ Mice and other pointing devices
+  - HID-compliant mouse
+  - PS/2 兼容鼠标
++ Monitors
+  - 通用即插即用监视器
++ Network adapters
+  - Dell Wireless 1502 802.11b/g/n (driver 9.2.0.225)
+  - Realtek PCIe FE Family Controller (driver 7.44.421.2011)
+  - VirtualBox Host-Only Ethernet Adapter (driver 4.1.10.0)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.1.2.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.1.2.0)
++ Processors
+  - AMD E-300 APU with Radeon(tm) HD Graphics
+  - AMD E-300 APU with Radeon(tm) HD Graphics
++ Sound, video and game controllers
+  - AMD High Definition Audio Device (driver 7.12.0.7700)
+  - IDT High Definition Audio CODEC (driver 6.10.0.6341)
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - AMD SMBus (driver 5.12.0.13)
+  - ATI I/O Communications Processor PCI Bus Controller
+  - Direct memory access controller
+  - High Definition Audio 控制器
+  - High Definition Audio 控制器
+  - High precision event timer
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft 虚拟驱动器枚举器驱动程序
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System board
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Host Device (driver 9.1.54.0)
+  - Volume Manager
+  - 复合总线枚举器
+  - 文件作为卷驱动程序
++ Universal Serial Bus controllers
+  - Standard Enhanced PCI to USB Host Controller (driver 1.0.0.5)
+  - Standard Enhanced PCI to USB Host Controller (driver 1.0.0.5)
+  - Standard Enhanced PCI to USB Host Controller (driver 1.0.0.5)
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 6465676e
+ebx = 6465676e
+ecx = 020284c0
+edx = 01fb8700
+esi = 02028540
+edi = 0018f6e8
+eip = 004071df
+esp = 0018f464
+ebp = 0018f468
+
+stack dump:
+0018f464  00 87 fb 01 9c f4 18 00 - 7b 3a 41 00 6e 67 65 64  ........{:A.nged
+0018f474  d0 d2 fa 01 f4 f4 18 00 - d7 43 49 00 a4 53 4f 00  .........CI..SO.
+0018f484  74 f4 18 00 00 00 00 00 - e8 f6 18 00 00 00 00 00  t...............
+0018f494  00 00 00 00 48 f5 18 00 - 48 f5 18 00 07 93 40 00  ....H...H.....@.
+0018f4a4  00 87 fb 01 e8 f6 18 00 - 34 cb 44 00 90 a5 fb 01  ........4.D.....
+0018f4b4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0018f4c4  00 00 00 00 00 00 00 00 - c0 84 02 02 00 00 00 00  ................
+0018f4d4  00 00 00 00 00 00 00 00 - c0 84 02 02 ff ff ff 00  ................
+0018f4e4  60 00 50 00 6c fe 18 00 - 40 85 02 02 95 b4 34 72  `.P.l...@.....4r
+0018f4f4  8c f8 18 00 d7 43 49 00 - 10 3f 4f 00 a8 f4 18 00  .....CI..?O.....
+0018f504  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0018f514  08 45 db be ec 07 0d 00 - 95 b4 34 72 00 00 00 00  .E........4r....
+0018f524  14 f5 18 00 00 2e f5 01 - 30 f6 18 00 1e a6 cc 74  ........0......t
+0018f534  74 c0 05 ca 00 00 00 00 - 0f 00 00 00 00 00 00 00  t...............
+0018f544  00 00 00 00 8c f6 18 00 - 61 b6 47 00 90 a5 fb 01  ........a.G.....
+0018f554  57 cb 44 00 e8 f6 18 00 - c5 d5 44 00 90 a5 fb 01  W.D.......D.....
+0018f564  f5 b0 47 00 e8 f6 18 00 - bc f8 18 00 90 a5 fb 01  ..G.............
+0018f574  00 00 00 00 95 b4 34 72 - 01 00 00 00 18 f6 18 00  ......4r........
+0018f584  00 00 00 00 94 f5 18 00 - ec 07 0d 00 00 00 00 00  ................
+0018f594  00 00 00 00 e2 45 db be - c8 f5 18 00 fa 62 c6 74  .....E.......b.t
+
+disassembling:
+004071d8     public nsServer.cpp.nsServer.Stop:  ; function entry point
+004071d8 125           ebp
+004071d9               ebp, esp
+004071db               ebx
+004071dc               ebx, [ebp+8]
+004071df 127 >         dword ptr [ebx+$14], 1
+004071e6 128           eax, [ebx+$10]
+004071e9               eax
+004071ea               +$e98eb ($4f0ada)      ; closesocket (WS2_32.dll)
+004071ef 129           dword ptr [ebx+$10], $ffffffff
+004071f6 130           $ffffffff
+[...]
+
+date/time         : 2017-08-05, 10:34:18, 445ms
+computer name     : DESKTOP-BUK9RK2
+user name         : lyl
+registered owner  : Windows 用户
+operating system  : Windows NT New x64 build 9200
+system language   : Chinese (Simplified)
+system up time    : 1 hour 6 minutes
+program up time   : 7 minutes 57 seconds
+processors        : 4x Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+physical memory   : 4236/8109 MB (free/total)
+free disk space   : (C:) 42.85 GB (F:) 74.67 GB
+display mode      : 1366x768, 32 bit
+process id        : $df8
+allocated memory  : 68.08 MB
+executable        : reDuh+GUI.exe
+exec. date/time   : 2017-08-01 20:01
+compiled with     : BCB 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $75333a21, $419bedab, $50a916f8
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 00439EB3 in module 'reDuh+GUI.exe'. Read of address 00000000.
+
+main thread ($1c34):
+00439eb3 +017 reDuh+GUI.exe System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                          __internal_free
+0049346f +007 reDuh+GUI.exe                          free
+00489921 +019 reDuh+GUI.exe                          $bdele
+0040703b +027 reDuh+GUI.exe nsServer.cpp      62  +6 nsServer.Destroy
+00413a82 +02e reDuh+GUI.exe tunnelThread.cpp 203  +6 TTunnelThread.Stop
+00408efc +2d8 reDuh+GUI.exe reDuchMain.cpp   241 +38 TForm1.killBtnClick
+0047b65b +06f reDuh+GUI.exe Controls                 TControl.Click
+0044cb52 +01e reDuh+GUI.exe Stdctrls                 TCustomButton.Click
+0044d5c0 +010 reDuh+GUI.exe Stdctrls                 TCustomButton.CNCommand
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls                 TButtonControl.WndProc
+0047ad18 +024 reDuh+GUI.exe Controls                 TControl.Perform
+0047f747 +023 reDuh+GUI.exe Controls                 _16950
+00480143 +00b reDuh+GUI.exe Controls                 TWinControl.WMCommand
+004691dc +02c reDuh+GUI.exe Forms                    TCustomForm.WMCommand
+0040e74a +012 reDuh+GUI.exe reDuchMain.h      50  +2 TForm1.Dispatch
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0046614c +594 reDuh+GUI.exe Forms                    TCustomForm.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls                 TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                  _17453
+74360bfb +13b USER32.dll                             SendMessageW
+7435df12 +092 USER32.dll                             CallWindowProcW
+0047f6f3 +0d7 reDuh+GUI.exe Controls                 TWinControl.DefaultHandler
+0047ba78 +010 reDuh+GUI.exe Controls                 TControl.WMLButtonUp
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls                 TButtonControl.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls                 TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                  _17453
+7435df9b +00b USER32.dll                             DispatchMessageW
+0046e74d +11d reDuh+GUI.exe Forms                    TApplication.ProcessMessage
+0046e77a +00a reDuh+GUI.exe Forms                    TApplication.HandleMessage
+0046eaa5 +0c9 reDuh+GUI.exe Forms                    TApplication.Run
+0040734a +052 reDuh+GUI.exe reDuhGUI.cpp      21  +7 WinMain
+0049e866 +156 reDuh+GUI.exe                          __startup
+751362c2 +022 KERNEL32.DLL                           BaseThreadInitThunk
+
+thread $6ac:
+73ffaf13 +93 KERNELBASE.dll  WaitForSingleObjectEx
+73ffae6d +0d KERNELBASE.dll  WaitForSingleObject
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $3e4:
+74001d4a +ea KERNELBASE.dll  WaitForMultipleObjectsEx
+774708c4 +34 ntdll.dll       KiUserCallbackDispatcher
+74f924ea +0a win32u.dll      NtUserGetMessage
+7437a786 +26 USER32.dll      GetMessageW
+6113bc68 +28 DUI70.dll       StartMessagePump
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1548:
+74001d4a +0ea KERNELBASE.dll           WaitForMultipleObjectsEx
+74368971 +171 USER32.dll               MsgWaitForMultipleObjectsEx
+616e0a82 +032 DUser.dll                GetMessageExA
+752d746c +08c msvcrt.dll               _endthreadex
+004c751d +00d reDuh+GUI.exe  Madexcept _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept _17201
+751362c2 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $3e4 at:
+752d734f +07f msvcrt.dll               _beginthreadex
+
+thread $f50:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1fdc:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $10e4:
+74001d4a +0ea KERNELBASE.dll  WaitForMultipleObjectsEx
+74368971 +171 USER32.dll      MsgWaitForMultipleObjectsEx
+751362c2 +022 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $ad8:
+74001d4a +0ea KERNELBASE.dll  WaitForMultipleObjectsEx
+74368971 +171 USER32.dll      MsgWaitForMultipleObjectsEx
+751362c2 +022 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $874:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1810: <priority:1>
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $e20 (TTunnelThread):
+74002e14 +84 KERNELBASE.dll                          SleepEx
+74002d7a +0a KERNELBASE.dll                          Sleep
+00413a22 +9a reDuh+GUI.exe  tunnelThread.cpp 182 +14 TTunnelThread.Execute
+004c763b +2b reDuh+GUI.exe  Madexcept                _17202
+00422f06 +42 reDuh+GUI.exe  Classes                  _17295
+0043d2d4 +28 reDuh+GUI.exe  System                   _16870
+004c751d +0d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +37 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +22 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($1c34) at:
+004135d6 +46 reDuh+GUI.exe  tunnelThread.cpp 159  +1 TTunnelThread.Create
+
+thread $e50:
+7476b37b +ab WS2_32.dll                         WSAAccept
+7476b522 +12 WS2_32.dll                         accept
+00406ed1 +95 reDuh+GUI.exe nsServer.cpp     149 ThttpDataQueueManager.Destroy
+004c751d +0d reDuh+GUI.exe Madexcept            _17200
+004c7587 +37 reDuh+GUI.exe Madexcept            _17201
+751362c2 +22 KERNEL32.DLL                       BaseThreadInitThunk
+>> created by thread $e20 (TTunnelThread) at:
+00407195 +1d reDuh+GUI.exe nsServer.cpp 114  +3 nsServer.Start
+
+thread $11b8 (TTunnelThread):
+74002e14 +084 KERNELBASE.dll                         SleepEx
+74002d7a +00a KERNELBASE.dll                         Sleep
+004133f8 +294 reDuh+GUI.exe  tunnelThread.cpp 69 +40 RecvServerThread
+004c751d +00d reDuh+GUI.exe  Madexcept               _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept               _17201
+751362c2 +022 KERNEL32.DLL                           BaseThreadInitThunk
+>> created by thread $f00 at:
+004c751d +00d reDuh+GUI.exe  Madexcept               _17200
+
+thread $fa0:
+74001d4a +0ea KERNELBASE.dll           WaitForMultipleObjectsEx
+74368971 +171 USER32.dll               MsgWaitForMultipleObjectsEx
+004c751d +00d reDuh+GUI.exe  Madexcept _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept _17201
+751362c2 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $3e4 at:
+76fcd807 +000 shcore.dll
+
+modules:
+00400000 reDuh+GUI.exe                            F:\工具包\其他\内网\reDuh+GUI
+00660000 SSLEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+00900000 LIBEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+10000000 LIBCURL.DLL          7.19.5.0            F:\工具包\其他\内网\reDuh+GUI
+60d70000 sxs.dll              6.2.14393.0         C:\Windows\SYSTEM32
+60f00000 UIAnimation.dll      6.2.14393.447       C:\Windows\System32
+60f40000 UIAutomationCore.dll 7.2.14393.479       C:\Windows\SYSTEM32
+610a0000 DUI70.dll            6.2.14393.0         C:\Windows\system32
+61210000 msctfuimanager.dll   6.2.14393.0         C:\Windows\system32
+616c0000 DUser.dll            6.2.14393.0         C:\Windows\system32
+6e1d0000 apphelp.dll          6.2.14393.0         C:\Windows\system32
+6e8d0000 dwrite.dll           6.2.14393.1198      C:\Windows\system32
+6eb30000 dwmapi.dll           6.2.14393.206       C:\Windows\system32
+6eb50000 uxtheme.dll          6.2.14393.0         C:\Windows\system32
+6f140000 fwpuclnt.dll         6.2.14393.0         C:\Windows\System32
+6f1d0000 rasadhlp.dll         6.2.14393.0         C:\Windows\System32
+6f1e0000 wshbth.dll           6.2.14393.0         C:\Windows\System32
+6f200000 winrnr.dll           6.2.14393.0         C:\Windows\System32
+6f210000 NLAapi.dll           6.2.14393.0         C:\Windows\system32
+6f230000 pnrpnsp.dll          6.2.14393.0         C:\Windows\system32
+6f250000 napinsp.dll          6.2.14393.0         C:\Windows\system32
+71770000 mswsock.dll          6.2.14393.0         C:\Windows\system32
+72930000 DNSAPI.dll           6.2.14393.953       C:\Windows\SYSTEM32
+729c0000 MSVCR90.dll          9.0.30729.9247      C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35
+72e10000 IPHLPAPI.DLL         6.2.14393.953       C:\Windows\SYSTEM32
+73a30000 bcrypt.dll           6.2.14393.576       C:\Windows\SYSTEM32
+73ae0000 USERENV.dll          6.2.14393.0         C:\Windows\SYSTEM32
+73b90000 MSIMG32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73ba0000 oleacc.dll           7.2.14393.1198      C:\Windows\System32
+73c00000 WSOCK32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73c10000 COMCTL32.DLL         6.10.14393.953      C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_89c2555adb023171
+73e40000 VERSION.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73e50000 dtrampo.dll          4.0.0.0             C:\Windows\System32
+73eb0000 CRYPTBASE.dll        6.2.14393.0         C:\Windows\System32
+73ec0000 SspiCli.dll          6.2.14393.576       C:\Windows\System32
+73f30000 KERNELBASE.dll       6.2.14393.1198      C:\Windows\System32
+74160000 IMM32.DLL            6.2.14393.0         C:\Windows\System32
+741a0000 clbcatq.dll          2001.12.10941.16384 C:\Windows\System32
+74230000 cfgmgr32.dll         6.2.14393.0         C:\Windows\System32
+74270000 ucrtbase.dll         6.2.14393.0         C:\Windows\System32
+74350000 USER32.dll           6.2.14393.576       C:\Windows\System32
+744b0000 sechost.dll          6.2.14393.0         C:\Windows\System32
+74510000 OLE32.DLL            6.2.14393.1198      C:\Windows\System32
+74600000 OLEAUT32.DLL         6.2.14393.1198      C:\Windows\System32
+746a0000 powrprof.dll         6.2.14393.0         C:\Windows\System32
+746f0000 GDI32.dll            6.2.14393.206       C:\Windows\System32
+74730000 WS2_32.dll           6.2.14393.206       C:\Windows\System32
+749c0000 windows.storage.dll  6.2.14393.1198      C:\Windows\System32
+74f90000 win32u.dll           6.2.14393.51        C:\Windows\System32
+74fb0000 RPCRT4.dll           6.2.14393.82        C:\Windows\System32
+75080000 profapi.dll          6.2.14393.0         C:\Windows\System32
+75090000 ADVAPI32.DLL         6.2.14393.0         C:\Windows\System32
+75110000 kernel.appcore.dll   6.2.14393.0         C:\Windows\System32
+75120000 KERNEL32.DLL         6.2.14393.1198      C:\Windows\System32
+75260000 NSI.dll              6.2.14393.0         C:\Windows\System32
+75270000 msvcrt.dll           7.0.14393.0         C:\Windows\System32
+75330000 msvcp_win.dll        6.2.14393.0         C:\Windows\System32
+753b0000 SHELL32.dll          6.2.14393.1198      C:\Windows\System32
+76790000 MSCTF.dll            6.2.14393.953       C:\Windows\System32
+76a40000 COMDLG32.DLL         6.2.14393.479       C:\Windows\System32
+76b30000 bcryptPrimitives.dll 6.2.14393.0         C:\Windows\System32
+76fa0000 shcore.dll           6.2.14393.953       C:\Windows\System32
+77030000 gdi32full.dll        6.2.14393.1198      C:\Windows\System32
+77190000 SHLWAPI.dll          6.2.14393.0         C:\Windows\System32
+771e0000 combase.dll          6.2.14393.1198      C:\Windows\System32
+77400000 ntdll.dll            6.2.14393.479       C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                       0
+0004 System                     0
+01a4 smss.exe                   0
+026c csrss.exe                  0
+02e0 csrss.exe                  1
+02f8 wininit.exe                0
+0334 winlogon.exe               1
+0368 services.exe               0
+0370 lsass.exe                  0
+03d8 svchost.exe                0
+0194 svchost.exe                0
+0364 svchost.exe                0
+024c svchost.exe                0
+041c dwm.exe                    1
+0434 svchost.exe                0
+0498 svchost.exe                0
+04d0 svchost.exe                0
+04e8 ASCService.exe             0
+04f0 WUDFHost.exe               0
+055c igfxCUIService.exe         0
+05d4 svchost.exe                0
+07d0 HipsDaemon.exe             0
+057c ibmpmsvc.exe               0
+079c LPlatSvc.exe               0
+0880 svchost.exe                0
+097c svchost.exe                0
+0a78 svchost.exe                0
+0b80 ibtsiva.exe                0
+0b94 CxAudMsg64.exe             0
+0838 IUService.exe              0
+08b0 svchost.exe                0
+091c QQProtect.exe              0
+08d8 usysdiag.exe               0
+0944 dasHost.exe                0
+0968 vmnetdhcp.exe              0
+094c vmware-usbarbitrator64.exe 0
+098c vmnat.exe                  0
+045c IpOverUsbSvc.exe           0
+0c14 svchost.exe                0
+0c40 vmware-authd.exe           0
+0ca0 svchost.exe                0
+0fec svchost.exe                0
+0fbc Memory Compression         0
+0124 SearchIndexer.exe          0
+12d0 svchost.exe                0
+1340 LPlatSvc.exe               1 normal C:\Windows\System32
+1370 sihost.exe                 1 normal C:\Windows\System32
+138c svchost.exe                1 normal C:\Windows\System32
+1394 PresentationFontCache.exe  0
+13b0 Monitor.exe                1
+13b8 taskhostw.exe              1 normal C:\Windows\System32
+0bb4 RuntimeBroker.exe          1 normal C:\Windows\System32
+08e4 ChsIME.exe                 1 normal C:\Windows\System32\InputMethod\CHS
+107c explorer.exe               1 normal C:\Windows
+0cc4 igfxEM.exe                 1 normal C:\Windows\System32
+1220 ShellExperienceHost.exe    1 normal C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+0508 igfxHK.exe                 1 normal C:\Windows\System32
+14d4 CAudioFilterAgent64.exe    1 normal C:\Program Files\Conexant\cAudioFilterAgent
+176c CastSrv.exe                1 normal C:\Windows\System32
+155c QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+15f4 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+15e8 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+17dc QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+12fc QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+1330 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+0c5c QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+0f7c QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+14c0 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+15fc QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+1720 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+13c0 UninstallMonitor.exe       1
+1ebc acrotray.exe               1 normal D:\Adobe\Acrobat DC\Acrobat
+1f74 SearchProtocolHost.exe     0
+0cec Rolan.exe                  1 normal F:\工具包
+1b5c QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+1778 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+1530 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+1884 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+1de8 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+1c04 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+1ac8 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+09e4 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+0510 vmware.exe                 1 normal D:\虚拟机
+00d8 vmware-tray.exe            1 normal D:\虚拟机
+00c8 vmware-unity-helper.exe    1 normal D:\虚拟机
+10bc vmware-vmx.exe             1 normal D:\虚拟机\x64
+0fd8 ApplicationFrameHost.exe   1 normal C:\Windows\System32
+1b20 Microsoft.Photos.exe       1 normal C:\Program Files\WindowsApps\Microsoft.Windows.Photos_16.722.10060.0_x64__8wekyb3d8bbwe
+182c QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+120c notepad++.exe              1 normal F:\工具包\工具\Notepad++
+0ab8 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+19c4 QQBrowser.exe              1 idle   D:\QQ浏览器\QQBrowser
+0df8 reDuh+GUI.exe              1 normal F:\工具包\其他\内网\reDuh+GUI
+043c QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+1294 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+14e4 QQBrowser.exe              1 normal D:\QQ浏览器\QQBrowser
+1b6c caidao.exe                 1 normal F:\工具包\工具\中国菜刀各类\中国菜刀2016
+1de4 audiodg.exe                0
+1fc8 SearchFilterHost.exe       0
+
+hardware:
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Generic USB Hub
+  - Intel(R) USB 3.0 可扩展主机控制器 - 1.0 (Microsoft)
+  - Standard Enhanced PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB 根集线器(xHCI)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - 基于 ACPI x64 的电脑
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - ST500LM021-1KJ152
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - AMD Radeon R5 M240 (driver 21.19.146.32768)
+  - Intel(R) HD Graphics 5500 (driver 20.19.15.4568)
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - 标准 SATA AHCI 控制器
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - PS/2 标准键盘
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Conexant SmartAudio HD (driver 8.66.36.50)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - 通用即插即用监视器
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - ThinkPad UltraNav (driver 8.216.1616.150)
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.10586.21290)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Dual Band Wireless-AC 3160 (driver 18.33.5.1)
+  - Intel(R) Ethernet Connection (3) I218-V (driver 12.15.23.1)
+  - Npcap Loopback Adapter
+  - Npcap Loopback Adapter
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.2.8.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.2.8.0)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - HaoZip Virtual Bus (driver 3.0.0.0)
+  - Microsoft 存储空间控制器
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI 盖子
+  - ACPI 固定功能按钮
+  - ACPI 热区域
+  - High Definition Audio 控制器
+  - Intel Collaborative Processor Performance Control (CPPC) Driver (driver 1.0.0.1018)
+  - Intel(R) Management Engine Interface  (driver 11.0.5.1189)
+  - Lenovo PM Device (driver 1.67.12.19)
+  - Microsoft ACPI 兼容的嵌入式控制器
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI 兼容系统
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft 基本呈现驱动程序
+  - Microsoft 基本显示驱动程序
+  - Microsoft 虚拟驱动器枚举器
+  - Mobile 5th Generation Intel(R) Core(TM) SMBus Controller - 9CA2 (driver 10.1.1.33)
+  - Mobile 5th Generation Intel(R) Core(TM) Thermal Management Controller - 9CA4 (driver 10.1.1.33)
+  - NDIS 虚拟网络适配器枚举器
+  - PCI Express 根复合体
+  - PCI 标准 ISA 桥
+  - PCI 标准主机 CPU 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Host Device (driver 9.8.6.0)
+  - 复合总线枚举器
+  - 高精度事件计时器
+  - 即插即用软件设备枚举器
+  - 卷管理器
+  - 可编程中断控制器
+  - 母板资源
+  - 母板资源
+  - 数值数据处理器
+  - 系统 CMOS/实时时钟
+  - 系统板
+  - 系统计时器
+  - 系统扬声器
+  - 直接内存访问控制器
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
++ {5175d334-c371-4806-b3ba-71fd53c9258d}
+  - Microsoft Visual Studio Location Simulator Sensor (driver 11.0.0.0)
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS 波表合成器
+  - Microsoft IPv4 IPv6 转换适配器总线
+  - Microsoft Radio Device Enumeration Bus
+  - WLAN
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - Integrated Camera (driver 10.0.10586.11220)
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC 适配器
+  - Microsoft ACPI 兼容的控制方法电池
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Lenovo Precision USB Mouse (HID) (driver 2.1.0.8)
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - 内装麦克风 (Conexant SmartAudio HD)
+  - 扬声器 (Conexant SmartAudio HD)
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - 英特尔(R) 无线 Bluetooth(R) (driver 19.0.1621.3340)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - 系统固件
+
+cpu registers:
+eax = 00650076
+ebx = 00650001
+ecx = 00650076
+edx = 00000000
+esi = 0019f1f0
+edi = 025bfe4c
+eip = 00439eb3
+esp = 0019f1e0
+ebp = 0019f208
+
+stack dump:
+0019f1e0  76 00 65 00 96 35 49 00 - d0 11 60 02 76 00 65 00  v.e..5I...`.v.e.
+0019f1f0  18 9b 43 00 9c 9e 43 00 - 94 a0 43 00 ac a3 43 00  ..C...C...C...C.
+0019f200  80 a7 43 00 c0 a7 43 00 - 14 f2 19 00 75 34 49 00  ..C...C.....u4I.
+0019f210  76 00 65 00 48 f2 19 00 - 26 99 48 00 76 00 65 00  v.e.H...&.H.v.e.
+0019f220  76 00 65 00 6c f2 19 00 - d7 43 49 00 bc 70 4f 00  v.e.l....CI..pO.
+0019f230  20 f2 19 00 00 00 00 00 - 06 00 00 00 d0 11 60 02  ..............`.
+0019f240  00 00 00 00 00 00 00 00 - 58 f2 19 00 40 70 40 00  ........X...@p@.
+0019f250  76 00 65 00 00 46 59 02 - 90 f2 19 00 87 3a 41 00  v.e..FY......:A.
+0019f260  76 00 65 00 03 00 00 00 - 08 f3 19 00 1c f3 19 00  v.e.............
+0019f270  d7 43 49 00 a4 53 4f 00 - 68 f2 19 00 00 00 00 00  .CI..SO.h.......
+0019f280  00 00 00 00 00 00 00 00 - 00 00 00 00 70 f3 19 00  ............p...
+0019f290  70 f3 19 00 01 8f 40 00 - 00 46 59 02 10 f5 19 00  p.....@..FY.....
+0019f2a0  34 cb 44 00 30 6d 59 02 - 1d 00 00 00 0e 00 00 00  4.D.0mY.........
+0019f2b0  3e 00 00 00 1b 00 00 00 - 28 00 00 00 00 00 00 00  >.......(.......
+0019f2c0  04 f3 19 00 65 26 0b 77 - f4 1b 00 00 e8 f2 19 00  ....e&.w........
+0019f2d0  00 00 00 00 00 00 00 00 - 54 f6 19 00 00 00 00 00  ........T.......
+0019f2e0  90 11 60 02 54 f6 19 00 - 54 f6 19 00 00 00 00 00  ..`.T...T.......
+0019f2f0  90 11 60 02 01 74 01 00 - 80 06 1d 00 00 00 00 00  ..`..t..........
+0019f300  d0 11 60 02 18 f3 19 00 - 80 06 1d 00 00 00 00 00  ..`.............
+0019f310  d0 11 60 02 4e 41 49 00 - a0 5f 58 02 f0 f6 19 00  ..`.NAI.._X.....
+
+disassembling:
+[...]
+0040702a              [$4f3334], eax
+0040702f 62           +$e9a94 ($4f0ac8)      ; WSACleanup (WS2_32.dll)
+00407034              byte ptr [ebp+$c], 1
+00407038              loc_407041
+0040703a              ebx
+0040703b    >         +$828c8 ($489908)      ; $bdele
+00407040              ecx
+00407041 65           ebx
+00407042              ebp
+00407043
+
+date/time         : 2017-08-05, 12:40:37, 73ms
+computer name     : DESKTOP-BUK9RK2
+user name         : lyl
+registered owner  : Windows 用户
+operating system  : Windows NT New x64 build 9200
+system language   : Chinese (Simplified)
+system up time    : 3 hours 12 minutes
+program up time   : 7 minutes 3 seconds
+processors        : 4x Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+physical memory   : 5588/8109 MB (free/total)
+free disk space   : (C:) 42.63 GB (F:) 74.67 GB
+display mode      : 1366x768, 32 bit
+process id        : $8dc
+allocated memory  : 72.00 MB
+executable        : reDuh+GUI.exe
+exec. date/time   : 2017-08-01 20:01
+compiled with     : BCB 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $3f20fae1, $c749297d, $b36f9851
+exception number  : 1
+exception class   : EThread
+exception message : Cannot terminate an externally created thread.
+
+main thread ($ee8):
+004234cc +018 reDuh+GUI.exe Classes                TThread.Terminate
+00408f08 +2e4 reDuh+GUI.exe reDuchMain.cpp 242 +39 TForm1.killBtnClick
+0047b65b +06f reDuh+GUI.exe Controls               TControl.Click
+0044cb52 +01e reDuh+GUI.exe Stdctrls               TCustomButton.Click
+0044d5c0 +010 reDuh+GUI.exe Stdctrls               TCustomButton.CNCommand
+0047b0f2 +2d2 reDuh+GUI.exe Controls               TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls               TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls               TButtonControl.WndProc
+0047ad18 +024 reDuh+GUI.exe Controls               TControl.Perform
+0047f747 +023 reDuh+GUI.exe Controls               _16950
+00480143 +00b reDuh+GUI.exe Controls               TWinControl.WMCommand
+004691dc +02c reDuh+GUI.exe Forms                  TCustomForm.WMCommand
+0040e74a +012 reDuh+GUI.exe reDuchMain.h    50  +2 TForm1.Dispatch
+0047b0f2 +2d2 reDuh+GUI.exe Controls               TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls               TWinControl.WndProc
+0046614c +594 reDuh+GUI.exe Forms                  TCustomForm.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls               TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                _17453
+74360bfb +13b USER32.dll                           SendMessageW
+7435df12 +092 USER32.dll                           CallWindowProcW
+0047f6f3 +0d7 reDuh+GUI.exe Controls               TWinControl.DefaultHandler
+0047ba78 +010 reDuh+GUI.exe Controls               TControl.WMLButtonUp
+0047b0f2 +2d2 reDuh+GUI.exe Controls               TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls               TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls               TButtonControl.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls               TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                _17453
+7435df9b +00b USER32.dll                           DispatchMessageW
+0046e74d +11d reDuh+GUI.exe Forms                  TApplication.ProcessMessage
+0046e77a +00a reDuh+GUI.exe Forms                  TApplication.HandleMessage
+0046eaa5 +0c9 reDuh+GUI.exe Forms                  TApplication.Run
+0040734a +052 reDuh+GUI.exe reDuhGUI.cpp    21  +7 WinMain
+0049e866 +156 reDuh+GUI.exe                        __startup
+751362c2 +022 KERNEL32.DLL                         BaseThreadInitThunk
+
+thread $2534:
+73ffaf13 +93 KERNELBASE.dll  WaitForSingleObjectEx
+73ffae6d +0d KERNELBASE.dll  WaitForSingleObject
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $2684:
+74001d4a +ea KERNELBASE.dll  WaitForMultipleObjectsEx
+774708c4 +34 ntdll.dll       KiUserCallbackDispatcher
+74f924ea +0a win32u.dll      NtUserGetMessage
+7437a786 +26 USER32.dll      GetMessageW
+6113bc68 +28 DUI70.dll       StartMessagePump
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $246c:
+74001d4a +0ea KERNELBASE.dll           WaitForMultipleObjectsEx
+74368971 +171 USER32.dll               MsgWaitForMultipleObjectsEx
+616e0a82 +032 DUser.dll                GetMessageExA
+752d746c +08c msvcrt.dll               _endthreadex
+004c751d +00d reDuh+GUI.exe  Madexcept _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept _17201
+751362c2 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $2684 at:
+752d734f +07f msvcrt.dll               _beginthreadex
+
+thread $b14:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2540:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $450:
+74001d4a +0ea KERNELBASE.dll  WaitForMultipleObjectsEx
+74368971 +171 USER32.dll      MsgWaitForMultipleObjectsEx
+751362c2 +022 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1b90:
+74001d4a +0ea KERNELBASE.dll  WaitForMultipleObjectsEx
+74368971 +171 USER32.dll      MsgWaitForMultipleObjectsEx
+751362c2 +022 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1ae8:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $1214: <priority:1>
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2220:
+74002e14 +84 KERNELBASE.dll                                 SleepEx
+74002d7a +0a KERNELBASE.dll                                 Sleep
+00439f4c +b0 reDuh+GUI.exe  System                          SysFreeMem
+0043b044 +04 reDuh+GUI.exe  System                          @FreeMem
+0043c148 +0c reDuh+GUI.exe  System                          TObject.FreeInstance
+004151d9 +4d reDuh+GUI.exe  ../include/dinkumware/stdexcept TTunnelThread.Destroy
+0043c190 +08 reDuh+GUI.exe  System                          TObject.Free
+00422f5c +98 reDuh+GUI.exe  Classes                         _17295
+0043d2d4 +28 reDuh+GUI.exe  System                          _16870
+004c751d +0d reDuh+GUI.exe  Madexcept                       _17200
+004c7587 +37 reDuh+GUI.exe  Madexcept                       _17201
+751362c2 +22 KERNEL32.DLL                                   BaseThreadInitThunk
+
+thread $22e0 (TTunnelThread):
+74002e14 +084 KERNELBASE.dll                          SleepEx
+74002d7a +00a KERNELBASE.dll                          Sleep
+00439f4c +0b0 reDuh+GUI.exe  System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                           __internal_free
+0049346f +007 reDuh+GUI.exe                           free
+00413148 +f4c reDuh+GUI.exe  tunnelThread.cpp 153 +48 base64encode
+77473ca2 +0a2 ntdll.dll                               bsearch
+77473c6b +06b ntdll.dll                               bsearch
+729e37a9 +056 MSVCR90.dll                             _initptd
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by thread $2558 at:
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+
+thread $1334 (TTunnelThread):
+74002e14 +84 KERNELBASE.dll                          SleepEx
+74002d7a +0a KERNELBASE.dll                          Sleep
+00413a22 +9a reDuh+GUI.exe  tunnelThread.cpp 182 +14 TTunnelThread.Execute
+004c763b +2b reDuh+GUI.exe  Madexcept                _17202
+00422f06 +42 reDuh+GUI.exe  Classes                  _17295
+0043d2d4 +28 reDuh+GUI.exe  System                   _16870
+004c751d +0d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +37 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +22 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($ee8) at:
+004135d6 +46 reDuh+GUI.exe  tunnelThread.cpp 159  +1 TTunnelThread.Create
+
+thread $1538:
+7476b37b +ab WS2_32.dll                         WSAAccept
+7476b522 +12 WS2_32.dll                         accept
+00406ed1 +95 reDuh+GUI.exe nsServer.cpp     149 ThttpDataQueueManager.Destroy
+004c751d +0d reDuh+GUI.exe Madexcept            _17200
+004c7587 +37 reDuh+GUI.exe Madexcept            _17201
+751362c2 +22 KERNEL32.DLL                       BaseThreadInitThunk
+>> created by thread $1334 (TTunnelThread) at:
+00407195 +1d reDuh+GUI.exe nsServer.cpp 114  +3 nsServer.Start
+
+thread $38c (TTunnelThread):
+74002e14 +084 KERNELBASE.dll                          SleepEx
+74002d7a +00a KERNELBASE.dll                          Sleep
+00439f4c +0b0 reDuh+GUI.exe  System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                           __internal_free
+0049346f +007 reDuh+GUI.exe                           free
+00413148 +f4c reDuh+GUI.exe  tunnelThread.cpp 153 +48 base64encode
+77473ca2 +0a2 ntdll.dll                               bsearch
+77473c6b +06b ntdll.dll                               bsearch
+729e37a9 +056 MSVCR90.dll                             _initptd
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by thread $1538 at:
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+
+thread $2178:
+74002e14 +084 KERNELBASE.dll                          SleepEx
+74002d7a +00a KERNELBASE.dll                          Sleep
+00439f4c +0b0 reDuh+GUI.exe  System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                           __internal_free
+0049346f +007 reDuh+GUI.exe                           free
+00413148 +f4c reDuh+GUI.exe  tunnelThread.cpp 153 +48 base64encode
+77473ca2 +0a2 ntdll.dll                               bsearch
+77473c6b +06b ntdll.dll                               bsearch
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by thread $1538 at:
+00406eff +0c3 reDuh+GUI.exe  nsServer.cpp         160 ThttpDataQueueManager.Destroy
+
+thread $2740:
+74002e14 +084 KERNELBASE.dll                          SleepEx
+74002d7a +00a KERNELBASE.dll                          Sleep
+00439f4c +0b0 reDuh+GUI.exe  System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                           __internal_free
+0049346f +007 reDuh+GUI.exe                           free
+00413148 +f4c reDuh+GUI.exe  tunnelThread.cpp 153 +48 base64encode
+77473ca2 +0a2 ntdll.dll                               bsearch
+77473c6b +06b ntdll.dll                               bsearch
+729e37a9 +056 MSVCR90.dll                             _initptd
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by thread $1538 at:
+00406eff +0c3 reDuh+GUI.exe  nsServer.cpp         160 ThttpDataQueueManager.Destroy
+
+thread $1580:
+74001d4a +0ea KERNELBASE.dll           WaitForMultipleObjectsEx
+74368971 +171 USER32.dll               MsgWaitForMultipleObjectsEx
+004c751d +00d reDuh+GUI.exe  Madexcept _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept _17201
+751362c2 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $2684 at:
+76fcd807 +000 shcore.dll
+
+modules:
+00400000 reDuh+GUI.exe                            F:\工具包\其他\内网\reDuh+GUI
+00660000 SSLEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+009c0000 LIBEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+10000000 LIBCURL.DLL          7.19.5.0            F:\工具包\其他\内网\reDuh+GUI
+60d70000 sxs.dll              6.2.14393.0         C:\Windows\SYSTEM32
+60f00000 UIAnimation.dll      6.2.14393.447       C:\Windows\System32
+60f40000 UIAutomationCore.dll 7.2.14393.479       C:\Windows\SYSTEM32
+610a0000 DUI70.dll            6.2.14393.0         C:\Windows\system32
+61210000 msctfuimanager.dll   6.2.14393.0         C:\Windows\system32
+616c0000 DUser.dll            6.2.14393.0         C:\Windows\system32
+6e8d0000 dwrite.dll           6.2.14393.1198      C:\Windows\system32
+6eb30000 dwmapi.dll           6.2.14393.206       C:\Windows\system32
+6eb50000 uxtheme.dll          6.2.14393.0         C:\Windows\system32
+6f140000 fwpuclnt.dll         6.2.14393.0         C:\Windows\System32
+6f1d0000 rasadhlp.dll         6.2.14393.0         C:\Windows\System32
+6f1e0000 wshbth.dll           6.2.14393.0         C:\Windows\System32
+6f200000 winrnr.dll           6.2.14393.0         C:\Windows\System32
+6f210000 NLAapi.dll           6.2.14393.0         C:\Windows\system32
+6f230000 pnrpnsp.dll          6.2.14393.0         C:\Windows\system32
+6f250000 napinsp.dll          6.2.14393.0         C:\Windows\system32
+71770000 mswsock.dll          6.2.14393.0         C:\Windows\system32
+72930000 DNSAPI.dll           6.2.14393.953       C:\Windows\SYSTEM32
+729c0000 MSVCR90.dll          9.0.30729.9247      C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35
+72e10000 IPHLPAPI.DLL         6.2.14393.953       C:\Windows\SYSTEM32
+73a30000 bcrypt.dll           6.2.14393.576       C:\Windows\SYSTEM32
+73ae0000 USERENV.dll          6.2.14393.0         C:\Windows\SYSTEM32
+73b90000 MSIMG32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73ba0000 oleacc.dll           7.2.14393.1198      C:\Windows\System32
+73c00000 WSOCK32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73c10000 COMCTL32.DLL         6.10.14393.953      C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_89c2555adb023171
+73e40000 VERSION.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73e50000 dtrampo.dll          4.0.0.0             C:\Windows\System32
+73eb0000 CRYPTBASE.dll        6.2.14393.0         C:\Windows\System32
+73ec0000 SspiCli.dll          6.2.14393.576       C:\Windows\System32
+73f30000 KERNELBASE.dll       6.2.14393.1198      C:\Windows\System32
+74160000 IMM32.DLL            6.2.14393.0         C:\Windows\System32
+741a0000 clbcatq.dll          2001.12.10941.16384 C:\Windows\System32
+74230000 cfgmgr32.dll         6.2.14393.0         C:\Windows\System32
+74270000 ucrtbase.dll         6.2.14393.0         C:\Windows\System32
+74350000 USER32.dll           6.2.14393.576       C:\Windows\System32
+744b0000 sechost.dll          6.2.14393.0         C:\Windows\System32
+74510000 OLE32.DLL            6.2.14393.1198      C:\Windows\System32
+74600000 OLEAUT32.DLL         6.2.14393.1198      C:\Windows\System32
+746a0000 powrprof.dll         6.2.14393.0         C:\Windows\System32
+746f0000 GDI32.dll            6.2.14393.206       C:\Windows\System32
+74730000 WS2_32.dll           6.2.14393.206       C:\Windows\System32
+749c0000 windows.storage.dll  6.2.14393.1198      C:\Windows\System32
+74f90000 win32u.dll           6.2.14393.51        C:\Windows\System32
+74fb0000 RPCRT4.dll           6.2.14393.82        C:\Windows\System32
+75080000 profapi.dll          6.2.14393.0         C:\Windows\System32
+75090000 ADVAPI32.DLL         6.2.14393.0         C:\Windows\System32
+75110000 kernel.appcore.dll   6.2.14393.0         C:\Windows\System32
+75120000 KERNEL32.DLL         6.2.14393.1198      C:\Windows\System32
+75260000 NSI.dll              6.2.14393.0         C:\Windows\System32
+75270000 msvcrt.dll           7.0.14393.0         C:\Windows\System32
+75330000 msvcp_win.dll        6.2.14393.0         C:\Windows\System32
+753b0000 SHELL32.dll          6.2.14393.1198      C:\Windows\System32
+76790000 MSCTF.dll            6.2.14393.953       C:\Windows\System32
+76a40000 COMDLG32.DLL         6.2.14393.479       C:\Windows\System32
+76b30000 bcryptPrimitives.dll 6.2.14393.0         C:\Windows\System32
+76fa0000 shcore.dll           6.2.14393.953       C:\Windows\System32
+77030000 gdi32full.dll        6.2.14393.1198      C:\Windows\System32
+77190000 SHLWAPI.dll          6.2.14393.0         C:\Windows\System32
+771e0000 combase.dll          6.2.14393.1198      C:\Windows\System32
+77400000 ntdll.dll            6.2.14393.479       C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                       0
+0004 System                     0
+01a4 smss.exe                   0
+026c csrss.exe                  0
+02e0 csrss.exe                  1
+02f8 wininit.exe                0
+0334 winlogon.exe               1
+0368 services.exe               0
+0370 lsass.exe                  0
+03d8 svchost.exe                0
+0194 svchost.exe                0
+0364 svchost.exe                0
+024c svchost.exe                0
+041c dwm.exe                    1
+0434 svchost.exe                0
+0498 svchost.exe                0
+04d0 svchost.exe                0
+04e8 ASCService.exe             0
+04f0 WUDFHost.exe               0
+055c igfxCUIService.exe         0
+05d4 svchost.exe                0
+07d0 HipsDaemon.exe             0
+057c ibmpmsvc.exe               0
+079c LPlatSvc.exe               0
+0880 svchost.exe                0
+097c svchost.exe                0
+0a78 svchost.exe                0
+0b80 ibtsiva.exe                0
+0b94 CxAudMsg64.exe             0
+0838 IUService.exe              0
+08b0 svchost.exe                0
+091c QQProtect.exe              0
+08d8 usysdiag.exe               0
+0944 dasHost.exe                0
+0968 vmnetdhcp.exe              0
+094c vmware-usbarbitrator64.exe 0
+098c vmnat.exe                  0
+045c IpOverUsbSvc.exe           0
+0c14 svchost.exe                0
+0c40 vmware-authd.exe           0
+0ca0 svchost.exe                0
+0fec svchost.exe                0
+0fbc Memory Compression         0
+0124 SearchIndexer.exe          0
+12d0 svchost.exe                0
+1340 LPlatSvc.exe               1 normal       C:\Windows\System32
+1370 sihost.exe                 1 normal       C:\Windows\System32
+138c svchost.exe                1 normal       C:\Windows\System32
+1394 PresentationFontCache.exe  0
+13b0 Monitor.exe                1
+13b8 taskhostw.exe              1 normal       C:\Windows\System32
+0bb4 RuntimeBroker.exe          1 normal       C:\Windows\System32
+08e4 ChsIME.exe                 1 normal       C:\Windows\System32\InputMethod\CHS
+0cc4 igfxEM.exe                 1 normal       C:\Windows\System32
+0508 igfxHK.exe                 1 normal       C:\Windows\System32
+14d4 CAudioFilterAgent64.exe    1 normal       C:\Program Files\Conexant\cAudioFilterAgent
+176c CastSrv.exe                1 normal       C:\Windows\System32
+155c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+15f4 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+15e8 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+17dc QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+12fc QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1330 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+0c5c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+0f7c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+14c0 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1720 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+13c0 UninstallMonitor.exe       1
+1ebc acrotray.exe               1 normal       D:\Adobe\Acrobat DC\Acrobat
+1f74 SearchProtocolHost.exe     0
+0cec Rolan.exe                  1 normal       F:\工具包
+00d8 vmware-tray.exe            1 normal       D:\虚拟机
+0fd8 ApplicationFrameHost.exe   1 normal       C:\Windows\System32
+1b20 Microsoft.Photos.exe       1 normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_16.722.10060.0_x64__8wekyb3d8bbwe
+182c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+18f0 SystemSettings.exe         1 normal       C:\Windows\ImmersiveControlPanel
+180c WinStore.App.exe           1 normal       C:\Program Files\WindowsApps\Microsoft.WindowsStore_11705.1001.21.0_x64__8wekyb3d8bbwe
+1100 Video.UI.exe               1 normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.17042.14211.0_x64__8wekyb3d8bbwe
+181c SettingSyncHost.exe        1 below normal C:\Windows\System32
+1718 audiodg.exe                0
+1df4 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1a90 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+2798 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+25a4 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1c0c QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1c58 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1338 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1a68 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+0df0 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1bd8 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1d5c QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+0490 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1c38 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+2274 explorer.exe               1 normal       C:\Windows
+2338 ShellExperienceHost.exe    1 normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+1c04 WmiPrvSE.exe               0
+08dc reDuh+GUI.exe              1 normal       F:\工具包\其他\内网\reDuh+GUI
+2620 caidao.exe                 1 normal       F:\工具包\工具\中国菜刀各类\中国菜刀2016
+0990 SearchFilterHost.exe       0
+11f4 mstsc.exe                  1 normal       F:\工具包\工具\远程控制\Control
+
+hardware:
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Generic USB Hub
+  - Intel(R) USB 3.0 可扩展主机控制器 - 1.0 (Microsoft)
+  - Standard Enhanced PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB 根集线器(xHCI)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - 基于 ACPI x64 的电脑
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - ST500LM021-1KJ152
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - AMD Radeon R5 M240 (driver 21.19.146.32768)
+  - Intel(R) HD Graphics 5500 (driver 20.19.15.4568)
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - 标准 SATA AHCI 控制器
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - PS/2 标准键盘
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Conexant SmartAudio HD (driver 8.66.36.50)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - 通用即插即用监视器
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - ThinkPad UltraNav (driver 8.216.1616.150)
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.10586.21290)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Dual Band Wireless-AC 3160 (driver 18.33.5.1)
+  - Intel(R) Ethernet Connection (3) I218-V (driver 12.15.23.1)
+  - Npcap Loopback Adapter
+  - Npcap Loopback Adapter
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.2.8.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.2.8.0)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - HaoZip Virtual Bus (driver 3.0.0.0)
+  - Microsoft 存储空间控制器
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI 盖子
+  - ACPI 固定功能按钮
+  - ACPI 热区域
+  - High Definition Audio 控制器
+  - Intel Collaborative Processor Performance Control (CPPC) Driver (driver 1.0.0.1018)
+  - Intel(R) Management Engine Interface  (driver 11.0.5.1189)
+  - Lenovo PM Device (driver 1.67.12.19)
+  - Microsoft ACPI 兼容的嵌入式控制器
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI 兼容系统
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft 基本呈现驱动程序
+  - Microsoft 基本显示驱动程序
+  - Microsoft 虚拟驱动器枚举器
+  - Mobile 5th Generation Intel(R) Core(TM) SMBus Controller - 9CA2 (driver 10.1.1.33)
+  - Mobile 5th Generation Intel(R) Core(TM) Thermal Management Controller - 9CA4 (driver 10.1.1.33)
+  - NDIS 虚拟网络适配器枚举器
+  - PCI Express 根复合体
+  - PCI 标准 ISA 桥
+  - PCI 标准主机 CPU 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Host Device (driver 9.8.6.0)
+  - 复合总线枚举器
+  - 高精度事件计时器
+  - 即插即用软件设备枚举器
+  - 卷管理器
+  - 可编程中断控制器
+  - 母板资源
+  - 母板资源
+  - 数值数据处理器
+  - 系统 CMOS/实时时钟
+  - 系统板
+  - 系统计时器
+  - 系统扬声器
+  - 直接内存访问控制器
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
++ {5175d334-c371-4806-b3ba-71fd53c9258d}
+  - Microsoft Visual Studio Location Simulator Sensor (driver 11.0.0.0)
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS 波表合成器
+  - Microsoft IPv4 IPv6 转换适配器总线
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - WLAN
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - Integrated Camera (driver 10.0.10586.11220)
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC 适配器
+  - Microsoft ACPI 兼容的控制方法电池
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Lenovo Precision USB Mouse (HID) (driver 2.1.0.8)
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - 内装麦克风 (Conexant SmartAudio HD)
+  - 扬声器 (Conexant SmartAudio HD)
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - 英特尔(R) 无线 Bluetooth(R) (driver 19.0.1621.3340)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - 系统固件
+
+disassembling:
+[...]
+00408efb               ecx
+00408efc               +$ab53 ($413a54)       ; tunnelThread.cpp.TTunnelThread.Stop
+00408f01               ecx
+00408f02 242           eax, [ebx+8]
+00408f05               eax, [eax+$30]
+00408f08     >         +$1a5a7 ($4234b4)      ; Classes.TThread.Terminate
+00408f0d 244           esp, -$10
+00408f10               edx, [ebx]
+00408f12               eax, [ebp-$c8]
+00408f18               [esp], edx
+00408f1b               edx, [ebx+4]
+[...]
+
+date/time         : 2017-08-05, 12:44:59, 729ms
+computer name     : DESKTOP-BUK9RK2
+user name         : lyl
+registered owner  : Windows 用户
+operating system  : Windows NT New x64 build 9200
+system language   : Chinese (Simplified)
+system up time    : 3 hours 17 minutes
+program up time   : 3 minutes 56 seconds
+processors        : 4x Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+physical memory   : 5502/8109 MB (free/total)
+free disk space   : (C:) 42.60 GB (F:) 74.67 GB
+display mode      : 1366x768, 32 bit
+process id        : $145c
+allocated memory  : 68.28 MB
+executable        : reDuh+GUI.exe
+exec. date/time   : 2017-08-01 20:01
+compiled with     : BCB 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $18921424, $7b83e5bf, $8c48caa8
+count             : 3
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 004071DF in module 'reDuh+GUI.exe'. Write of address 0061008B.
+
+main thread ($1814):
+004071df +007 reDuh+GUI.exe nsServer.cpp     127  +2 nsServer.Stop
+00413a76 +022 reDuh+GUI.exe tunnelThread.cpp 202  +5 TTunnelThread.Stop
+00408efc +2d8 reDuh+GUI.exe reDuchMain.cpp   241 +38 TForm1.killBtnClick
+0047b65b +06f reDuh+GUI.exe Controls                 TControl.Click
+0044cb52 +01e reDuh+GUI.exe Stdctrls                 TCustomButton.Click
+0044d5c0 +010 reDuh+GUI.exe Stdctrls                 TCustomButton.CNCommand
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls                 TButtonControl.WndProc
+0047ad18 +024 reDuh+GUI.exe Controls                 TControl.Perform
+0047f747 +023 reDuh+GUI.exe Controls                 _16950
+00480143 +00b reDuh+GUI.exe Controls                 TWinControl.WMCommand
+004691dc +02c reDuh+GUI.exe Forms                    TCustomForm.WMCommand
+0040e74a +012 reDuh+GUI.exe reDuchMain.h      50  +2 TForm1.Dispatch
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0046614c +594 reDuh+GUI.exe Forms                    TCustomForm.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls                 TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                  _17453
+74360bfb +13b USER32.dll                             SendMessageW
+7435df12 +092 USER32.dll                             CallWindowProcW
+0047f6f3 +0d7 reDuh+GUI.exe Controls                 TWinControl.DefaultHandler
+0047ba78 +010 reDuh+GUI.exe Controls                 TControl.WMLButtonUp
+0047b0f2 +2d2 reDuh+GUI.exe Controls                 TControl.WndProc
+0047f5f7 +513 reDuh+GUI.exe Controls                 TWinControl.WndProc
+0044c818 +06c reDuh+GUI.exe Stdctrls                 TButtonControl.WndProc
+0047ed10 +02c reDuh+GUI.exe Controls                 TWinControl.MainWndProc
+00424658 +014 reDuh+GUI.exe Classes                  _17453
+7435df9b +00b USER32.dll                             DispatchMessageW
+0046e74d +11d reDuh+GUI.exe Forms                    TApplication.ProcessMessage
+0046e77a +00a reDuh+GUI.exe Forms                    TApplication.HandleMessage
+0046eaa5 +0c9 reDuh+GUI.exe Forms                    TApplication.Run
+0040734a +052 reDuh+GUI.exe reDuhGUI.cpp      21  +7 WinMain
+0049e866 +156 reDuh+GUI.exe                          __startup
+751362c2 +022 KERNEL32.DLL                           BaseThreadInitThunk
+
+thread $171c:
+73ffaf13 +93 KERNELBASE.dll  WaitForSingleObjectEx
+73ffae6d +0d KERNELBASE.dll  WaitForSingleObject
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $12a0:
+74001d4a +ea KERNELBASE.dll  WaitForMultipleObjectsEx
+774708c4 +34 ntdll.dll       KiUserCallbackDispatcher
+74f924ea +0a win32u.dll      NtUserGetMessage
+7437a786 +26 USER32.dll      GetMessageW
+6113bc68 +28 DUI70.dll       StartMessagePump
+751362c2 +22 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1830:
+74001d4a +ea KERNELBASE.dll           WaitForMultipleObjectsEx
+616e0a82 +32 DUser.dll                GetMessageExA
+752d746c +8c msvcrt.dll               _endthreadex
+004c751d +0d reDuh+GUI.exe  Madexcept _17200
+004c7587 +37 reDuh+GUI.exe  Madexcept _17201
+751362c2 +22 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $12a0 at:
+752d734f +7f msvcrt.dll               _beginthreadex
+
+thread $4e0:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $520:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $20e4:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $262c:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2730: <priority:1>
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2558:
+74001d4a +0ea KERNELBASE.dll  WaitForMultipleObjectsEx
+74368971 +171 USER32.dll      MsgWaitForMultipleObjectsEx
+751362c2 +022 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $1efc (TTunnelThread):
+74002e14 +84 KERNELBASE.dll                          SleepEx
+74002d7a +0a KERNELBASE.dll                          Sleep
+00413a22 +9a reDuh+GUI.exe  tunnelThread.cpp 182 +14 TTunnelThread.Execute
+004c763b +2b reDuh+GUI.exe  Madexcept                _17202
+00422f06 +42 reDuh+GUI.exe  Classes                  _17295
+0043d2d4 +28 reDuh+GUI.exe  System                   _16870
+004c751d +0d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +37 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +22 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by main thread ($1814) at:
+004135d6 +46 reDuh+GUI.exe  tunnelThread.cpp 159  +1 TTunnelThread.Create
+
+thread $2034:
+7476b37b +ab WS2_32.dll                         WSAAccept
+7476b522 +12 WS2_32.dll                         accept
+00406ed1 +95 reDuh+GUI.exe nsServer.cpp     149 ThttpDataQueueManager.Destroy
+004c751d +0d reDuh+GUI.exe Madexcept            _17200
+004c7587 +37 reDuh+GUI.exe Madexcept            _17201
+751362c2 +22 KERNEL32.DLL                       BaseThreadInitThunk
+>> created by thread $1efc (TTunnelThread) at:
+00407195 +1d reDuh+GUI.exe nsServer.cpp 114  +3 nsServer.Start
+
+thread $23bc (TTunnelThread):
+74002e14 +084 KERNELBASE.dll                          SleepEx
+74002d7a +00a KERNELBASE.dll                          Sleep
+00439f4c +0b0 reDuh+GUI.exe  System                   SysFreeMem
+00493593 +01f reDuh+GUI.exe                           __internal_free
+0049346f +007 reDuh+GUI.exe                           free
+00413148 +f4c reDuh+GUI.exe  tunnelThread.cpp 153 +48 base64encode
+77473ca2 +0a2 ntdll.dll                               bsearch
+77473c6b +06b ntdll.dll                               bsearch
+729e37a9 +056 MSVCR90.dll                             _initptd
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept                _17201
+751362c2 +022 KERNEL32.DLL                            BaseThreadInitThunk
+>> created by thread $2034 at:
+004c751d +00d reDuh+GUI.exe  Madexcept                _17200
+
+thread $1ed4:
+751362c2 +22 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2454:
+74001d4a +0ea KERNELBASE.dll           WaitForMultipleObjectsEx
+74368971 +171 USER32.dll               MsgWaitForMultipleObjectsEx
+004c751d +00d reDuh+GUI.exe  Madexcept _17200
+004c7587 +037 reDuh+GUI.exe  Madexcept _17201
+751362c2 +022 KERNEL32.DLL             BaseThreadInitThunk
+>> created by thread $12a0 at:
+76fcd807 +000 shcore.dll
+
+modules:
+00400000 reDuh+GUI.exe                            F:\工具包\其他\内网\reDuh+GUI
+00660000 SSLEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+00900000 LIBEAY32.dll         0.9.8.8             F:\工具包\其他\内网\reDuh+GUI
+10000000 LIBCURL.DLL          7.19.5.0            F:\工具包\其他\内网\reDuh+GUI
+60d70000 sxs.dll              6.2.14393.0         C:\Windows\SYSTEM32
+60f00000 UIAnimation.dll      6.2.14393.447       C:\Windows\System32
+60f40000 UIAutomationCore.dll 7.2.14393.479       C:\Windows\SYSTEM32
+610a0000 DUI70.dll            6.2.14393.0         C:\Windows\system32
+61210000 msctfuimanager.dll   6.2.14393.0         C:\Windows\system32
+616c0000 DUser.dll            6.2.14393.0         C:\Windows\system32
+6e8d0000 dwrite.dll           6.2.14393.1198      C:\Windows\system32
+6eb30000 dwmapi.dll           6.2.14393.206       C:\Windows\system32
+6eb50000 uxtheme.dll          6.2.14393.0         C:\Windows\system32
+6f140000 fwpuclnt.dll         6.2.14393.0         C:\Windows\System32
+6f1d0000 rasadhlp.dll         6.2.14393.0         C:\Windows\System32
+6f1e0000 wshbth.dll           6.2.14393.0         C:\Windows\System32
+6f200000 winrnr.dll           6.2.14393.0         C:\Windows\System32
+6f210000 NLAapi.dll           6.2.14393.0         C:\Windows\system32
+6f230000 pnrpnsp.dll          6.2.14393.0         C:\Windows\system32
+6f250000 napinsp.dll          6.2.14393.0         C:\Windows\system32
+71770000 mswsock.dll          6.2.14393.0         C:\Windows\system32
+72930000 DNSAPI.dll           6.2.14393.953       C:\Windows\SYSTEM32
+729c0000 MSVCR90.dll          9.0.30729.9247      C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9247_none_5090cb78bcba4a35
+72e10000 IPHLPAPI.DLL         6.2.14393.953       C:\Windows\SYSTEM32
+73a30000 bcrypt.dll           6.2.14393.576       C:\Windows\SYSTEM32
+73ae0000 USERENV.dll          6.2.14393.0         C:\Windows\SYSTEM32
+73b90000 MSIMG32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73ba0000 oleacc.dll           7.2.14393.1198      C:\Windows\System32
+73c00000 WSOCK32.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73c10000 COMCTL32.DLL         6.10.14393.953      C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_89c2555adb023171
+73e40000 VERSION.DLL          6.2.14393.0         C:\Windows\SYSTEM32
+73e50000 dtrampo.dll          4.0.0.0             C:\Windows\System32
+73eb0000 CRYPTBASE.dll        6.2.14393.0         C:\Windows\System32
+73ec0000 SspiCli.dll          6.2.14393.576       C:\Windows\System32
+73f30000 KERNELBASE.dll       6.2.14393.1198      C:\Windows\System32
+74160000 IMM32.DLL            6.2.14393.0         C:\Windows\System32
+741a0000 clbcatq.dll          2001.12.10941.16384 C:\Windows\System32
+74230000 cfgmgr32.dll         6.2.14393.0         C:\Windows\System32
+74270000 ucrtbase.dll         6.2.14393.0         C:\Windows\System32
+74350000 USER32.dll           6.2.14393.576       C:\Windows\System32
+744b0000 sechost.dll          6.2.14393.0         C:\Windows\System32
+74510000 OLE32.DLL            6.2.14393.1198      C:\Windows\System32
+74600000 OLEAUT32.DLL         6.2.14393.1198      C:\Windows\System32
+746a0000 powrprof.dll         6.2.14393.0         C:\Windows\System32
+746f0000 GDI32.dll            6.2.14393.206       C:\Windows\System32
+74730000 WS2_32.dll           6.2.14393.206       C:\Windows\System32
+749c0000 windows.storage.dll  6.2.14393.1198      C:\Windows\System32
+74f90000 win32u.dll           6.2.14393.51        C:\Windows\System32
+74fb0000 RPCRT4.dll           6.2.14393.82        C:\Windows\System32
+75080000 profapi.dll          6.2.14393.0         C:\Windows\System32
+75090000 ADVAPI32.DLL         6.2.14393.0         C:\Windows\System32
+75110000 kernel.appcore.dll   6.2.14393.0         C:\Windows\System32
+75120000 KERNEL32.DLL         6.2.14393.1198      C:\Windows\System32
+75260000 NSI.dll              6.2.14393.0         C:\Windows\System32
+75270000 msvcrt.dll           7.0.14393.0         C:\Windows\System32
+75330000 msvcp_win.dll        6.2.14393.0         C:\Windows\System32
+753b0000 SHELL32.dll          6.2.14393.1198      C:\Windows\System32
+76790000 MSCTF.dll            6.2.14393.953       C:\Windows\System32
+76a40000 COMDLG32.DLL         6.2.14393.479       C:\Windows\System32
+76b30000 bcryptPrimitives.dll 6.2.14393.0         C:\Windows\System32
+76fa0000 shcore.dll           6.2.14393.953       C:\Windows\System32
+77030000 gdi32full.dll        6.2.14393.1198      C:\Windows\System32
+77190000 SHLWAPI.dll          6.2.14393.0         C:\Windows\System32
+771e0000 combase.dll          6.2.14393.1198      C:\Windows\System32
+77400000 ntdll.dll            6.2.14393.479       C:\Windows\SYSTEM32
+
+processes:
+0000 Idle                       0
+0004 System                     0
+01a4 smss.exe                   0
+026c csrss.exe                  0
+02e0 csrss.exe                  1
+02f8 wininit.exe                0
+0334 winlogon.exe               1
+0368 services.exe               0
+0370 lsass.exe                  0
+03d8 svchost.exe                0
+0194 svchost.exe                0
+0364 svchost.exe                0
+024c svchost.exe                0
+041c dwm.exe                    1
+0434 svchost.exe                0
+0498 svchost.exe                0
+04d0 svchost.exe                0
+04e8 ASCService.exe             0
+04f0 WUDFHost.exe               0
+055c igfxCUIService.exe         0
+05d4 svchost.exe                0
+07d0 HipsDaemon.exe             0
+057c ibmpmsvc.exe               0
+079c LPlatSvc.exe               0
+0880 svchost.exe                0
+097c svchost.exe                0
+0a78 svchost.exe                0
+0b80 ibtsiva.exe                0
+0b94 CxAudMsg64.exe             0
+0838 IUService.exe              0
+08b0 svchost.exe                0
+091c QQProtect.exe              0
+08d8 usysdiag.exe               0
+0944 dasHost.exe                0
+0968 vmnetdhcp.exe              0
+094c vmware-usbarbitrator64.exe 0
+098c vmnat.exe                  0
+045c IpOverUsbSvc.exe           0
+0c14 svchost.exe                0
+0c40 vmware-authd.exe           0
+0ca0 svchost.exe                0
+0fec svchost.exe                0
+0fbc Memory Compression         0
+0124 SearchIndexer.exe          0
+12d0 svchost.exe                0
+1340 LPlatSvc.exe               1 normal       C:\Windows\System32
+1370 sihost.exe                 1 normal       C:\Windows\System32
+138c svchost.exe                1 normal       C:\Windows\System32
+1394 PresentationFontCache.exe  0
+13b0 Monitor.exe                1
+13b8 taskhostw.exe              1 normal       C:\Windows\System32
+0bb4 RuntimeBroker.exe          1 normal       C:\Windows\System32
+08e4 ChsIME.exe                 1 normal       C:\Windows\System32\InputMethod\CHS
+0cc4 igfxEM.exe                 1 normal       C:\Windows\System32
+0508 igfxHK.exe                 1 normal       C:\Windows\System32
+14d4 CAudioFilterAgent64.exe    1 normal       C:\Program Files\Conexant\cAudioFilterAgent
+176c CastSrv.exe                1 normal       C:\Windows\System32
+155c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+15f4 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+15e8 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+17dc QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+12fc QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1330 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+0c5c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+0f7c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+14c0 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1720 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+13c0 UninstallMonitor.exe       1
+1ebc acrotray.exe               1 normal       D:\Adobe\Acrobat DC\Acrobat
+1f74 SearchProtocolHost.exe     0
+0cec Rolan.exe                  1 normal       F:\工具包
+00d8 vmware-tray.exe            1 normal       D:\虚拟机
+0fd8 ApplicationFrameHost.exe   1 normal       C:\Windows\System32
+1b20 Microsoft.Photos.exe       1 normal       C:\Program Files\WindowsApps\Microsoft.Windows.Photos_16.722.10060.0_x64__8wekyb3d8bbwe
+182c QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+18f0 SystemSettings.exe         1 normal       C:\Windows\ImmersiveControlPanel
+180c WinStore.App.exe           1 normal       C:\Program Files\WindowsApps\Microsoft.WindowsStore_11705.1001.21.0_x64__8wekyb3d8bbwe
+1100 Video.UI.exe               1 normal       C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.17042.14211.0_x64__8wekyb3d8bbwe
+181c SettingSyncHost.exe        1 below normal C:\Windows\System32
+1718 audiodg.exe                0
+1df4 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1a90 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+2798 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+25a4 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+1c0c QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1c58 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1338 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1a68 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+0df0 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1bd8 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1d5c QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+0490 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+1c38 QQBrowser.exe              1 idle         D:\QQ浏览器\QQBrowser
+2274 explorer.exe               1 normal       C:\Windows
+2338 ShellExperienceHost.exe    1 normal       C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy
+1c04 WmiPrvSE.exe               0
+2620 caidao.exe                 1 normal       F:\工具包\工具\中国菜刀各类\中国菜刀2016
+145c reDuh+GUI.exe              1 normal       F:\工具包\其他\内网\reDuh+GUI
+23ec svchost.exe                0
+2604 QQBrowser.exe              1 normal       D:\QQ浏览器\QQBrowser
+102c SearchFilterHost.exe       0
+
+hardware:
++ {36fc9e60-c465-11cf-8056-444553540000}
+  - Generic USB Hub
+  - Intel(R) USB 3.0 可扩展主机控制器 - 1.0 (Microsoft)
+  - Standard Enhanced PCI to USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB 根集线器(xHCI)
++ {4d36e966-e325-11ce-bfc1-08002be10318}
+  - 基于 ACPI x64 的电脑
++ {4d36e967-e325-11ce-bfc1-08002be10318}
+  - ST500LM021-1KJ152
++ {4d36e968-e325-11ce-bfc1-08002be10318}
+  - AMD Radeon R5 M240 (driver 21.19.146.32768)
+  - Intel(R) HD Graphics 5500 (driver 20.19.15.4568)
++ {4d36e96a-e325-11ce-bfc1-08002be10318}
+  - 标准 SATA AHCI 控制器
++ {4d36e96b-e325-11ce-bfc1-08002be10318}
+  - PS/2 标准键盘
++ {4d36e96c-e325-11ce-bfc1-08002be10318}
+  - Conexant SmartAudio HD (driver 8.66.36.50)
++ {4d36e96e-e325-11ce-bfc1-08002be10318}
+  - 通用即插即用监视器
++ {4d36e96f-e325-11ce-bfc1-08002be10318}
+  - HID-compliant mouse
+  - ThinkPad UltraNav (driver 8.216.1616.150)
++ {4d36e970-e325-11ce-bfc1-08002be10318}
+  - Realtek PCIE CardReader (driver 10.0.10586.21290)
++ {4d36e972-e325-11ce-bfc1-08002be10318}
+  - Intel(R) Dual Band Wireless-AC 3160 (driver 18.33.5.1)
+  - Intel(R) Ethernet Connection (3) I218-V (driver 12.15.23.1)
+  - Npcap Loopback Adapter
+  - Npcap Loopback Adapter
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.2.8.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.2.8.0)
++ {4d36e97b-e325-11ce-bfc1-08002be10318}
+  - HaoZip Virtual Bus (driver 3.0.0.0)
+  - Microsoft 存储空间控制器
++ {4d36e97d-e325-11ce-bfc1-08002be10318}
+  - ACPI 盖子
+  - ACPI 固定功能按钮
+  - ACPI 热区域
+  - High Definition Audio 控制器
+  - Intel Collaborative Processor Performance Control (CPPC) Driver (driver 1.0.0.1018)
+  - Intel(R) Management Engine Interface  (driver 11.0.5.1189)
+  - Lenovo PM Device (driver 1.67.12.19)
+  - Microsoft ACPI 兼容的嵌入式控制器
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft UEFI 兼容系统
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft 基本呈现驱动程序
+  - Microsoft 基本显示驱动程序
+  - Microsoft 虚拟驱动器枚举器
+  - Mobile 5th Generation Intel(R) Core(TM) SMBus Controller - 9CA2 (driver 10.1.1.33)
+  - Mobile 5th Generation Intel(R) Core(TM) Thermal Management Controller - 9CA4 (driver 10.1.1.33)
+  - NDIS 虚拟网络适配器枚举器
+  - PCI Express 根复合体
+  - PCI 标准 ISA 桥
+  - PCI 标准主机 CPU 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - PCI 到 PCI 桥
+  - Remote Desktop Device Redirector Bus
+  - Remote Desktop USB Hub
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - VMware VMCI Host Device (driver 9.8.6.0)
+  - 复合总线枚举器
+  - 高精度事件计时器
+  - 即插即用软件设备枚举器
+  - 卷管理器
+  - 可编程中断控制器
+  - 母板资源
+  - 母板资源
+  - 数值数据处理器
+  - 系统 CMOS/实时时钟
+  - 系统板
+  - 系统计时器
+  - 系统扬声器
+  - 直接内存访问控制器
++ {50127dc3-0f36-415e-a6cc-4cb3be910b65}
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
+  - Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz
++ {5175d334-c371-4806-b3ba-71fd53c9258d}
+  - Microsoft Visual Studio Location Simulator Sensor (driver 11.0.0.0)
++ {533c5b84-ec70-11d2-9505-00c04f79deaf}
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
++ {62f9c741-b25a-46ce-b54c-9bccce08b6f2}
+  - Microsoft Device Association Root Enumerator
+  - Microsoft GS 波表合成器
+  - Microsoft IPv4 IPv6 转换适配器总线
+  - Microsoft Radio Device Enumeration Bus
+  - Microsoft RRAS Root Enumerator
+  - WLAN
++ {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+  - Integrated Camera (driver 10.0.10586.11220)
++ {72631e54-78a4-11d0-bcf7-00aa00b7b32a}
+  - Microsoft AC 适配器
+  - Microsoft ACPI 兼容的控制方法电池
++ {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+  - Lenovo Precision USB Mouse (HID) (driver 2.1.0.8)
++ {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}
+  - 内装麦克风 (Conexant SmartAudio HD)
+  - 扬声器 (Conexant SmartAudio HD)
++ {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+  - 英特尔(R) 无线 Bluetooth(R) (driver 19.0.1621.3340)
++ {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+  - 系统固件
+
+cpu registers:
+eax = 00610077
+ebx = 00610077
+ecx = 024a4600
+edx = 0019f344
+esi = 025112d0
+edi = 025183ac
+eip = 004071df
+esp = 0019f280
+ebp = 0019f284
+
+stack dump:
+0019f280  00 46 4a 02 b8 f2 19 00 - 7b 3a 41 00 77 00 61 00  .FJ.....{:A.w.a.
+0019f290  30 f3 19 00 44 f3 19 00 - d7 43 49 00 a4 53 4f 00  0...D....CI..SO.
+0019f2a0  90 f2 19 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019f2b0  00 00 00 00 98 f3 19 00 - 98 f3 19 00 01 8f 40 00  ..............@.
+0019f2c0  00 46 4a 02 38 f5 19 00 - 34 cb 44 00 30 6d 4a 02  .FJ.8...4.D.0mJ.
+0019f2d0  3e 00 00 00 1b 00 00 00 - 28 00 00 00 00 00 00 00  >.......(.......
+0019f2e0  24 f3 19 00 65 26 0b 77 - 02 17 00 00 08 f3 19 00  $...e&.w........
+0019f2f0  00 00 00 00 00 00 00 00 - 74 f6 19 00 00 00 00 00  ........t.......
+0019f300  00 00 00 00 74 f6 19 00 - 90 11 51 02 ff ff ff ff  ....t.....Q.....
+0019f310  00 00 00 00 74 f6 19 00 - 90 11 51 02 00 00 00 00  ....t.....Q.....
+0019f320  00 00 00 00 38 f3 19 00 - d0 12 51 02 02 17 01 fb  ....8.....Q.....
+0019f330  00 00 00 00 38 f3 19 00 - d0 12 51 02 4c d3 b7 6e  ....8.....Q.L..n
+0019f340  a0 5f 49 02 18 f7 19 00 - d7 43 49 00 38 3e 4f 00  ._I......CI.8>O.
+0019f350  c4 f2 19 00 00 00 00 00 - 00 00 00 00 74 f6 19 00  ............t...
+0019f360  00 00 00 00 68 52 89 00 - 60 9f 50 02 10 2e 4f 00  ....hR..`.P...O.
+0019f370  b0 9f 50 02 08 33 4f 00 - 00 00 00 00 50 75 52 02  ..P..3O.....PuR.
+0019f380  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0019f390  00 00 00 00 00 00 00 00 - dc f4 19 00 61 b6 47 00  ............a.G.
+0019f3a0  30 6d 4a 02 57 cb 44 00 - 38 f5 19 00 c5 d5 44 00  0mJ.W.D.8.....D.
+0019f3b0  30 6d 4a 02 f5 b0 47 00 - 38 f5 19 00 48 f7 19 00  0mJ...G.8...H...
+
+disassembling:
+004071d8     public nsServer.cpp.nsServer.Stop:  ; function entry point
+004071d8 125           ebp
+004071d9               ebp, esp
+004071db               ebx
+004071dc               ebx, [ebp+8]
+004071df 127 >         dword ptr [ebx+$14], 1
+004071e6 128           eax, [ebx+$10]
+004071e9               eax
+004071ea               +$e98eb ($4f0ada)      ; closesocket (WS2_32.dll)
+004071ef 129           dword ptr [ebx+$10], $ffffffff
+004071f6 130           $ffffffff
+[...]
+
